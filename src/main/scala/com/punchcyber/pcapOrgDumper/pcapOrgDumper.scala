@@ -96,7 +96,7 @@ object pcapOrgDumper {
                         
                         try {
                             val pool: ExecutorService = Executors.newFixedThreadPool(settings.maxThreads)
-                            nifHandle.loop(1000000,listener,pool)
+                            nifHandle.loop(-1,listener,pool)
                             pool.awaitTermination(30,TimeUnit.SECONDS)
                             if(!pool.isShutdown) pool.shutdown()
                         } catch {
