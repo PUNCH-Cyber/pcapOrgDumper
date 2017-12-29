@@ -15,7 +15,6 @@ libraryDependencies ++= Seq(
     "org.pcap4j" % "pcap4j-core" % "1.7.2",
     "org.pcap4j" % "pcap4j-packetfactory-static" % "1.7.2",
     "org.rogach" %% "scallop" % "3.1.1",
-    //"org.yaml" % "snakeyaml" % "1.18",
     "io.circe" %% "circe-yaml" % "0.6.1",
     "commons-net" % "commons-net" % "3.6"
 )
