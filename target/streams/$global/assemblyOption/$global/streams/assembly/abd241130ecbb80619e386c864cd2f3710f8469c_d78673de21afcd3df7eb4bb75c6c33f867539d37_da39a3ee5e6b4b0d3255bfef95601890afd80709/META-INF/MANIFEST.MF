@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: circe-yaml
+Implementation-Version: 0.6.1
+Specification-Vendor: io.circe
+Specification-Title: circe-yaml
+Implementation-Vendor-Id: io.circe
+Specification-Version: 0.6.1
+Implementation-URL: https://github.com/circe/circe-yaml
+Vcs-Release-Tag: v0.6.1
+Implementation-Vendor: io.circe
+Vcs-Release-Hash: 25d6bf7470191e27bcca0d6c4e139ad8acff1dff
+

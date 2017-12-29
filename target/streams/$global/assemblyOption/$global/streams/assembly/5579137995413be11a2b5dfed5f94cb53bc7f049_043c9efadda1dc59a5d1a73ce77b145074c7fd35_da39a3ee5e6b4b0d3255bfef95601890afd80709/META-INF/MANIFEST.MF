@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: core
+Implementation-Version: 0.10.0
+Specification-Vendor: com.github.mpilquist
+Specification-Title: core
+Implementation-Vendor-Id: com.github.mpilquist
+Specification-Version: 0.10.0
+Implementation-Vendor: com.github.mpilquist
+
