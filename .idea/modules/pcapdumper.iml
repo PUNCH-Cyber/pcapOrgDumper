@@ -22,25 +22,25 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.typelevel:macro-compat_2.12:1.1.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.typelevel:machinist_2.12:0.6.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.typelevel:cats-macros_2.12:0.9.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.typelevel:cats-kernel_2.12:0.9.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.typelevel:cats-core_2.12:0.9.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.spire-math:jawn-parser_2.12:0.10.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.12.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.circe:circe-yaml_2.12:0.6.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.circe:circe-parser_2.12:0.8.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.circe:circe-numbers_2.12:0.8.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.circe:circe-jawn_2.12:0.8.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.circe:circe-core_2.12:0.8.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.github.mpilquist:simulacrum_2.12:0.10.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.yaml:snakeyaml:1.18:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.12:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.rogach:scallop_2.12:3.1.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.pcap4j:pcap4j-packetfactory-static:1.7.2:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.pcap4j:pcap4j-core:1.7.2:jar" level="project" />
-    <orderEntry type="library" name="sbt: net.java.dev.jna:jna:4.2.1:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-net:commons-net:3.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: net.java.dev.jna:jna:4.2.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.pcap4j:pcap4j-core:1.7.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.pcap4j:pcap4j-packetfactory-static:1.7.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.rogach:scallop_2.12:3.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.12:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.yaml:snakeyaml:1.18:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.github.mpilquist:simulacrum_2.12:0.10.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-core_2.12:0.8.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-jawn_2.12:0.8.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-numbers_2.12:0.8.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-parser_2.12:0.8.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-yaml_2.12:0.6.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.12.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.spire-math:jawn-parser_2.12:0.10.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-core_2.12:0.9.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-kernel_2.12:0.9.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-macros_2.12:0.9.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:machinist_2.12:0.6.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:macro-compat_2.12:1.1.1:jar" level="project" />
   </component>
 </module>

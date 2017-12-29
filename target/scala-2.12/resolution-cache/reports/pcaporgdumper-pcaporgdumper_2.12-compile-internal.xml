@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20171229142957"/>
+		date="20171229162626"/>
 	<dependencies>
 		<module organisation="commons-net" name="commons-net">
 			<revision name="3.6" status="release" pubdate="20170211101823" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
