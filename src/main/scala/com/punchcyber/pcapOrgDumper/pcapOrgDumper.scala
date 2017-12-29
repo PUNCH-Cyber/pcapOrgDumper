@@ -95,7 +95,11 @@ object pcapOrgDumper {
                         }
                         
                         try {
-                            val pool: ExecutorService = Executors.newFixedThreadPool(settings.maxThreads)
+                            val pool: ExecutorService = {
+                                // If we have maxThreads set to 0, then all available, otherwise, fixedThreadPool
+                                if(settings.maxThreads == 0) Executors.newCachedThreadPool()
+                                else Executors.newFixedThreadPool(settings.maxThreads)
+                            }
                             nifHandle.loop(-1,listener,pool)
                             pool.awaitTermination(30,TimeUnit.SECONDS)
                             if(!pool.isShutdown) pool.shutdown()
