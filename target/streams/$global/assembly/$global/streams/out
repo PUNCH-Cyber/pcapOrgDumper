@@ -1,22 +1,22 @@
+[0m[[0m[0minfo[0m] [0m[0mIncluding: circe-parser_2.12-0.8.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: jawn-parser_2.12-0.10.4.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding: cats-macros_2.12-0.9.0.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding: slf4j-api-1.7.12.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding: simulacrum_2.12-0.10.0.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding: macro-compat_2.12-1.1.1.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding: scallop_2.12-3.1.1.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding: jna-4.2.1.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding: machinist_2.12-0.6.1.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding: cats-kernel_2.12-0.9.0.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding: pcap4j-packetfactory-static-1.7.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: scallop_2.12-3.1.1.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding: circe-core_2.12-0.8.0.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding: scala-reflect.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: cats-kernel_2.12-0.9.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: circe-jawn_2.12-0.8.0.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding: scala-library.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: simulacrum_2.12-0.10.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: snakeyaml-1.18.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: slf4j-api-1.7.12.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: macro-compat_2.12-1.1.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: machinist_2.12-0.6.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: pcap4j-packetfactory-static-1.7.2.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding: circe-yaml_2.12-0.6.1.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding: circe-numbers_2.12-0.8.0.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding: jawn-parser_2.12-0.10.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: scala-reflect.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding: cats-core_2.12-0.9.0.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding: circe-parser_2.12-0.8.0.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding: snakeyaml-1.18.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding: circe-jawn_2.12-0.8.0.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding: pcap4j-core-1.7.2.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding: commons-net-3.6.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mCalculate mappings...[0m
@@ -37,7 +37,7 @@
 [0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.yaml/snakeyaml/pom.xml' with strategy 'discard'[0m
 [0m[[0m[33mwarn[0m] [0m[0mStrategy 'discard' was applied to 11 files[0m
 [0m[[0m[33mwarn[0m] [0m[0mStrategy 'rename' was applied to 2 files[0m
-[0m[[0m[0minfo[0m] [0m[0mSHA-1: 1602935126060b6a3077cedf40923dcc9c436b4a[0m
+[0m[[0m[0minfo[0m] [0m[0mSHA-1: f07ad21d88992780fb1038ca9f4c9c41a5c0db3e[0m
 [0m[[0m[0minfo[0m] [0m[0mPackaging /Users/mbossert/IdeaProjects/pcapDumper/target/scala-2.12/pcapOrgDumper-assembly-0.1.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	META-INF/LICENSE_commons-net-3.6.txt[0m
