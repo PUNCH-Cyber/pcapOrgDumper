@@ -1,5 +1,6 @@
 package com.punchcyber.pcapOrgDumper
 
+import java.io.File
 import java.sql.Timestamp
 import java.text.SimpleDateFormat
 import java.time.Instant
@@ -45,9 +46,15 @@ object pcapOrgDumper {
                     
                     for(org <- settings.orgArray) {
                         val pcapHandle: PcapHandle = Pcaps.openDead(dlt,65536,tsPrecision)
-                        val dumper: PcapDumper = pcapHandle.dumpOpen(settings.rootDir + "/" + org + "_" + new SimpleDateFormat("yyyyMMddHHmmss").format(new Date()) + ".pcap")
-                        outputDumpers.put(org,dumper)
-                        pcapHandle.close()
+                        val testFile: File = new File(settings.rootDir + "/" + org)
+                        if((testFile.isDirectory && testFile.canRead && testFile.canWrite) || testFile.mkdirs()) {
+                            val dumper: PcapDumper = pcapHandle.dumpOpen(settings.rootDir + "/" + org + "/" + org + "_" + new SimpleDateFormat("yyyyMMddHHmmss").format(new Date()) + ".pcap")
+                            outputDumpers.put(org,dumper)
+                            pcapHandle.close()
+                        }
+                        else {
+                            throw new SecurityException("Cannot read/create directory: " + settings.rootDir + "/" + org + "/")
+                        }
                     }
                     
                     // Start listening for packets

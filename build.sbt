@@ -1,10 +1,10 @@
 name := "pcapOrgDumper"
 
-version := "0.1"
+version := "0.2"
 
 scalaVersion := "2.12.4"
 
-logLevel := Level.Debug
+//logLevel := Level.Debug
 
 resolvers ++= Seq(
     "clojars" at "http://clojars.org/repo/",

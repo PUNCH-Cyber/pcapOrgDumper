@@ -39,6 +39,7 @@ object settingsValidator {
         val rootDirectory: File = new File(directoryString)
         
         if(rootDirectory.isDirectory && rootDirectory.canRead && rootDirectory.canWrite) true
+        else if(rootDirectory.mkdirs()) true
         else false
     }
     
