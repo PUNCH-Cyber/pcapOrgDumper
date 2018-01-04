@@ -67,9 +67,6 @@ class packetDumperConfig(arguments: Seq[String]) extends ScallopConf(arguments) 
           |  # Delete log files older than N days
           |  logMaxAge: 7
           |
-          |  # Compress logs older than N days
-          |  logCompress: 1
-          |
           |  # Metrics resolution unit (e.g. S, M, H) for Seconds, Minutes, or Hours
           |  measurementResolution: M
           |

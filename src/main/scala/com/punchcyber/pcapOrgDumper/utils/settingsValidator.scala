@@ -30,11 +30,6 @@ object settingsValidator {
         else false
     }
     
-    private def validateSampleRate(sampleRate: Int): Boolean = {
-        if(sampleRate > 0) true
-        else false
-    }
-    
     private def validateRootDirectory(directoryString: String): Boolean = {
         val rootDirectory: File = new File(directoryString)
         
@@ -86,11 +81,6 @@ object settingsValidator {
         else false
     }
     
-    private def validateCompressAge(days: Int): Boolean = {
-        if(days > 0) true
-        else false
-    }
-    
     private def validateMetricResolution(resolutionString: String): Boolean = {
         // All we are doing is checking for one of S, M, H
         if(resolutionString.matches("""(S|M|H)""")) true
@@ -107,7 +97,8 @@ object settingsValidator {
             
                 // MaxThreads
                 val maxThreads: Int = json.\\("maxThreads").head.as[Int].right.get
-            
+                if(maxThreads < 0) return false
+                
                 // Ports
                 val portIter: Iterator[Json] = json.\\("ports").head.as[List[Json]].right.get.toIterator
                 while(portIter.hasNext) {
