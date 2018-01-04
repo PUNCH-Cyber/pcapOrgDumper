@@ -2,7 +2,7 @@ package com.punchcyber.pcapOrgDumper.scallop
 
 import java.io.File
 
-import com.punchcyber.pcapOrgDumper.util.interfaceList.getInterfaceListString
+import com.punchcyber.pcapOrgDumper.utils.interfaceList.getInterfaceListString
 import org.rogach.scallop.{ScallopConf, ScallopOption}
 
 class packetDumperConfig(arguments: Seq[String]) extends ScallopConf(arguments) {
@@ -40,11 +40,6 @@ class packetDumperConfig(arguments: Seq[String]) extends ScallopConf(arguments) 
           |  # resources will be used
           |  maxThreads: 0
           |
-          |  # Sampling rate.  record 1 packet out of every N packets.  If this value is
-          |  # not set, then no sampling will be performed.  Setting a sample rate of 1
-          |  # will have the same effect as not setting this value.
-          |  sampleRate: 1
-          |
           |  # Specify the port(s) we wish to collect
           |  ports:
           |    - 25
@@ -56,10 +51,27 @@ class packetDumperConfig(arguments: Seq[String]) extends ScallopConf(arguments) 
           |  # Specify the root directory for PCAP file output.  If the directory does
           |  # not exist, we will create it, so ensure that the user running the app
           |  # has sufficient privileges (e.g. minimum of read/write)
-          |  root: "/Users/mbossert/test_output"
+          |  root: "/path/to/your/pcap/output"
           |
           |  # Approximate output file size with postfix units (e.g. B, KB, MB, GB, TB)
           |  fileSize: 1 GB
+          |
+          |  # Log file settings:
+          |  # Log file output directory
+          |  logRootDirectory: "/path/to/your/log/output"
+          |
+          |  # Logs are rotated every 24 hours at a user-defined time (THH:mm::ss) matching the system timezone.
+          |  # Note the "T" preceding the time
+          |  logRotationTime: T23:59:59
+          |
+          |  # Delete log files older than N days
+          |  logMaxAge: 7
+          |
+          |  # Compress logs older than N days
+          |  logCompress: 1
+          |
+          |  # Metrics resolution unit (e.g. S, M, H) for Seconds, Minutes, or Hours
+          |  measurementResolution: M
           |
           |  # List of Organization IP address(es) and/or ranges.  If this argument is
           |  # not supplied, no filter will be applied and all sessions will be
